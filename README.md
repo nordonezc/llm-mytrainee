@@ -1,3 +1,12 @@
+---
+title: LLM MyTrainee
+emoji: 🤖
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
 # AI LLM Microservice API
 
 A production-ready, asynchronous Python API built with **FastAPI** to serve Large Language Models (LLMs) locally. This project follows **Clean Architecture** principles, drawing inspiration from Java's Spring Boot structure to ensure scalability, maintainability, and a clear separation of concerns.
