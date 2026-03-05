@@ -1,5 +1,5 @@
 # Lightweight version of python for production, ideal para Hugging Face Spaces
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # Do not create .pyc files and ensure output is not buffered (important for logging)
 ENV PYTHONDONTWRITEBYTECODE=1
