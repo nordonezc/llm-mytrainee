@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Configuration & Secrets
+.env
+.flaskenv
+
+# LLM Models (No subir gigabytes de modelos al repo)
+*.gguf
+*.bin
+models/
+downloaded_models/
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.tox/
+
+# API Contracts
+# opanapi.json se suele versionar, pero si prefieres 
+# que sea dinámico, descomenta la siguiente línea:
+# openapi.json
+.42c/
+*.pa

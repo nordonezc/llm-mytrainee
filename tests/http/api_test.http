@@ -1,0 +1,16 @@
+@hostname = localhost
+@port = 8000
+@host = http://{{hostname}}:{{port}}
+@contentType = application/json
+
+### Test empty service
+POST {{host}}/api/v1/generate
+Content-Type: {{contentType}}
+
+{
+    "prompt": "Testing fastapi with empty service",
+    "temperature": 0.7
+}
+
+### Test health endpoint
+GET {{host}}/api/v1/health
